@@ -1,0 +1,32 @@
+h1 {
+    font-family: cursive;
+    font-size: 4em;
+    text-align: center;
+    color: deeppink;
+    background-color: chartreuse;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+
+}
+
+p {
+    width: 50%;
+    color: chartreuse;
+    background-color: deeppink;
+}
+
+h2 {
+    width: 50%;
+    font-size: 2em;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    margin-left: 17%;
+}
