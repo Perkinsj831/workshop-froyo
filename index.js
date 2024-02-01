@@ -64,24 +64,4 @@ console.table(countFlavors(froyoFlavors));
 // ---- && - Both left and right need to be true for the whole thing to be true
 // ---- || - ONLY one side needs to be true for the whole thing to be true
 
-const order = prompt("Enter a list of flavors seperated by commas")
-const orderArray = order.split(",")
-
-console.log(orderArray)
-
-function countOrders(orderArray){
-  let flavorObj = {}
-
-  for (let i = 0; i < orderArray.length; i++) {
-    let currentFlavor = orderArray[i].trim().tolowerCase()
-
-    if (flavorObj[currentFlavor === undefined]){ 
-      flavorObj[currentFlavor] = 1
-  } else {
-    flavorObj[currentFlavor] += 1
-  } 
-  return flavorObj
-}
-}
-
-console.table(flavorObj)
+// 
